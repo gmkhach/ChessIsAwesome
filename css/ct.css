@@ -1,0 +1,21 @@
+/* chessboard */
+
+.ct-black-square			{ background-color: #666 }  
+      
+.ct-white-square 			{ background-color: #999 }  
+
+.ct-board-border  			{ border: 2px solid #141414 } 
+
+.ct-board-move-mainline 	{ color: blue  } 
+  
+.ct-board-move-variation  	{ color: green }  
+
+.ct-board-move-comment 		{ color: green; font-weight: bold }  
+
+.ct-board-move-current  	{ color: yellow } 
+
+a:link			{ color: #000;  }
+a:visited		{ color: #000;  }
+a:active		{ color: #000;  }
+a:focus			{ color: #000;  }
+a:hover     	{ color: #f90;  }

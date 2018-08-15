@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<head>
+<script type="text/javascript" src="../js/jquery.js"></script>
+	
+<link href="../css/styles.css" rel="stylesheet" type="text/css" media="screen" />
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Type" content="cache" />
+	<meta name="robots" content="INDEX,FOLLOW" />
+	<meta name="keywords" content="chess, online chess, play online, chess games" />
+	<meta name="description" content="A website about chess, for chess lover! Play online chess games with your friends, brows famous games in our games library, or analyze a position from any game on our analysis board." />
+	<!-- TemplateBeginEditable name="doctitle" -->
+	<title>ChessIsAwesome.com</title>
+	<!-- TemplateEndEditable -->
+	<!-- TemplateBeginEditable name="head" -->
+	<!-- TemplateEndEditable -->
+</head>
+
+<body>
+
+<div id="wrapper">
+
+	<div id="logo"> <a href="../index.html"><img src="../images/logo.gif" /></a>
+    </div>
+    
+    <div id="topnav">
+    	 <ul>
+           <li><a href="../index.html">HOME</a></li>
+           <li><a href="../learn/learn.html">LEARN</a></li>
+           <li><a href="../library/library.html">LIBRARY</a></li>
+           <li><a href="../history/origins.html">HISTORY & STATISTICS</a></li>
+           <li><a href="../contact.html">CONTACT</a></li>
+         </ul>
+   </div>
+
+<!-- TemplateBeginEditable name="EditRegion1" -->EditRegion1<!-- TemplateEndEditable -->
+<div id="footer">
+	<p class="footer-text">Copyright© 2013 ChessIsAwesome.com</p>
+</div>
+    
+</div>
+
+
+</body>
+
+</html>

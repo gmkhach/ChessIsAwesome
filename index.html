@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<head>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/slider.js"></script>
+    
+    <script type="text/javascript">  // This is the script for the banner slider
+		$(document).ready(function() {$('#slider').s3Slider({timeOut: 7000})})
+	</script>
+	
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="screen" />
+	<link href="css/print.css" rel="stylesheet" type="text/css" media="print" />
+	<link href="css/slider.css" rel="stylesheet" type="text/css" media="screen">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Type" content="cache" />
+	<meta name="robots" content="INDEX,FOLLOW" />
+	<meta name="keywords" content="chess, online chess, play online, chess games" />
+	<meta name="description" content="A website about chess, for chess lover! Play online chess games with your friends, brows famous games in our games library, or analyze a position from any game on our analysis board." />
+    
+	<title>ChessIsAwesome.com</title>
+</head>
+
+<body>
+
+<div id="wrapper">
+
+	<div id="logo"> <a href="index.html"><img src="images/logo.gif" /></a>
+
+    </div>
+    
+    <div id="topnav">
+    	 <ul>
+           <li><a href="index.html">HOME</a></li>
+           <li><a href="learn/learn.html">LEARN</a></li>
+            <li><a href="library/library.html">LIBRARY</a></li>
+           <li><a href="history/origins.html">HISTORY & STATISTICS</a></li>
+           <li><a href="contact.html">CONTACT</a></li>
+         </ul>
+    </div>
+    
+    <div id="slider">
+
+		<ul id="sliderContent">
+		
+			<li class="sliderImage">
+				<img src="images/banner/napoleon_cornwallis.jpg" />
+				<span class="top">
+                    <i><br /><br /><br /><br />"It is too difficult to be a game, and not serious enough to be a science."<br /><br />
+                    <font size="-1">- Napoleon Bonapart</font></i> 
+                </span>
+			</li>
+
+			<li class="sliderImage">
+				<img src="images/banner/geografico_36_2950.bmp" />
+				<span class="top">
+                    <i><br /><br /><br /><br />"Daring ideas are like chessmen moving forward. They may be beaten, but they may start a winning game."<br /><br />
+                    <font size="-1">- Johann Wolfgang von Goethe</font></i>
+                </span>			
+            </li>
+            
+			<li class="sliderImage">
+				<img src="images/banner/Lady_Howe_FranklinHowe.jpg" />
+				<span class="top">
+                    <i><br /><br /><br /><br />"Life is kind of a chess, in which we have often <br />points to gain, and adversaries, or competitors, to contend with."<br /><br />
+                    <font size="-1">- Benjamin Franklin</font></i> 
+                </span>			
+            </li>
+            
+			<li class="sliderImage">
+				<img src="images/banner/Marcel Duchamp and John Cage, Toronto, 1968..jpg" />
+				<span class="top">
+                    <i><br /><br /><br /><br />"I am still a victim of chess. It has all the beauty of <br />art -- and much more. Chess is much purer than <br />art in its social position."<br /><br />
+                    <font size="-1">- Marcel Duchamp</font></i>                 
+                </span>			
+            </li>
+            
+			<li class="sliderImage">
+				<img src="images/banner/AlbertEinsteinonhis74thbirthday.jpg" />
+				<span class="top">
+                    <i><br /><br /><br /><br />"Chess holds its master in its own bonds, shackling the mind and brain so that the inner freedom of <br />the very strongest must suffer."<br /><br />
+                    <font size="-1">- Albert Einstein</font></i>                 
+                </span>			
+            </li>
+                                                
+			<div class="clear sliderImage"></div>
+		</ul>
+	
+	</div>
+     
+    <div id="content">
+    	<h1>Welcome to ChessIsAwesome.com!</h1>
+        
+        <p>
+        Learn how to play the most celebrated board game of all times. Read about chess, study theories, review historic games of the past, and 
+        check out the latest news in the chess world. Start your day with a quick brain exercise trying to solve the Daily Puzzle while your coffee 
+        is brewing (don't be mad at me if you forget about your coffee). Take a break and read a short story, or an anecdote, about the famous 
+        people in chess history to relax from the long hours of work or study. 
+        </p>
+        
+        <p>
+        If you are new in the game, you can find many useful introductory lessons in the <a href="learn/learn.html"><u>LEARN</u></a> section. Lessons for intermediate and advanced level players, such as opening theories, tactics, middle game analysis, are planned to be added to this section later.
+        </p>
+        
+        <p>
+        You can also go through many great games that have been played by GrandMasters of different eras, starting from mid-nineteenth 
+        century all the way up to today's top GMs. You will find these games in the <a href="library/library.html"><u>LIBRARY</u></a> of the website.
+        </p>
+	
+    	<p>
+        The <a href="history/origins.html"><u>HISTORY & STATISTICS</u></a> section is designed to give in-depth presentation of the game's history, 
+        as well as  show the statistics of the famous players' ratings and results. Chess is known for its interesting, amusing stories, many of 
+        which will be added to this section of the website in the near future.</p>
+        
+    </div> 
+    
+    <div id="rightside">
+    	<h2>Daily Puzzle</h2>
+
+        <div id="puzzle">
+			<div id="puzzle-container">
+				<link id="puzzleCss" type="text/css" rel="stylesheet" href="http://chesstempo.com/css/dailypuzzle.css"/>
+				<script type="text/javascript" src="http://chesstempo.com/js/dailypuzzle.js"></script>
+				<script>
+    				new Puzzle({ pieceSize: 20});
+				</script>
+			</div>
+		powered by<a id="ct-link" href="http://chesstempo.com/play-computer.html"> <i><u>chesstempo.com</u></i></a>
+		</div>
+
+    </div>
+     
+    <div id="footer">
+    	<p class="footer-text">Copyright © 2013 ChessIsAwesome.com</p>
+    </div>
+
+</div>
+
+</body>
+
+</html>
